@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 
@@ -75,9 +75,10 @@ const messagesEndRef = useRef(null);
       conversation.id === activeConversationId
   );
 
-  const messages = activeConversation
-    ? activeConversation.messages
-    : [];
+  const messages = useMemo(
+  () => (activeConversation ? activeConversation.messages : []),
+  [activeConversation]
+);
 useEffect(() => {
   messagesEndRef.current?.scrollIntoView({
     behavior: "smooth"
