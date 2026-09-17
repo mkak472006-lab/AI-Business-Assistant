@@ -8,17 +8,17 @@ https://ai-business-assistant-ks91.vercel.app/
 
 ## 📸 Screenshots
 
-### Dashboard
+<p align="center">
+  <img src="./screenshots/dashboard.png" alt="Dashboard" width="800"/>
+</p>
 
-![Dashboard](dashboard.png)
+<p align="center">
+  <img src="./screenshots/chat.png" alt="AI Chat" width="800"/>
+</p>
 
-### AI Chat
-
-![AI Chat](chat.png)
-
-### Quick Tools
-
-![Quick Tools](tools.png)
+<p align="center">
+  <img src="./screenshots/tools.png" alt="Quick Tools" width="800"/>
+</p>
 
 ## ✨ Features
 
