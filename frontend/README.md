@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# 🤖 AI Business Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack AI-powered business assistant that helps users generate business content, ideas, emails, social media posts, product descriptions, and freelancing proposals using OpenAI.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+https://ai-business-assistant-ks91.vercel.app/
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 💬 AI-powered business chat
+* 📧 Email generation
+* 📱 Social media post generation
+* 🛍️ Product description generation
+* 💼 Freelancing proposal generation
+* 💡 Business idea generation
+* 🔄 Multiple conversations
+* 💾 Conversation history using browser storage
+* 📋 Copy AI responses
+* 🔁 Regenerate responses
+* ✂️ Make responses shorter
+* 👔 Make responses more professional
+* 🧠 Explain responses in simpler language
+* 📱 Responsive interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* Axios
+* React Markdown
+* CSS
 
-### `npm run build`
+### Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Python
+* Flask
+* Flask-CORS
+* OpenAI API
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Vercel — Frontend
+* Render — Backend
+* GitHub — Source Code
 
-### `npm run build` fails to minify
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+AI-Business-Assistant/
+│
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── ...
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+└── README.md
+```
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mkak472006-lab/AI-Business-Assistant.git
+cd AI-Business-Assistant
+```
+
+### 2. Run the backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+The backend will run on:
+
+```text
+http://127.0.0.1:5000
+```
+
+### 3. Run the frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+The frontend will normally run on:
+
+```text
+http://localhost:3000
+```
+
+## 🔐 Environment Variables
+
+The backend requires an OpenAI API key.
+
+Create a `.env` file inside the `backend` folder:
+
+```text
+OPENAI_API_KEY=your_api_key_here
+```
+
+Never upload your real API key to GitHub.
+
+## 🌐 Deployment
+
+The frontend is deployed using Vercel and the backend is deployed using Render.
+
+**Live Application:**
+https://ai-business-assistant-ks91.vercel.app/
+
+## 📌 Future Improvements
+
+* ChatGPT-style word-by-word streaming responses
+* Continuous automatic scrolling while the AI is responding
+* Additional AI business tools
+* User authentication
+* Persistent database storage
+* More advanced business automation
+
+## 👨‍💻 Developer
+
+**Muhammad Ali Sanaullah**
+
+BS Artificial Intelligence
+SZABIST Islamabad
