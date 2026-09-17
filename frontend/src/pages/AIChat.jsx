@@ -170,7 +170,7 @@ const handleRegenerate = async () => {
 
   try {
     const response = await axios.post(
-      "http://127.0.0.1:5000/api/chat",
+      "https://ai-business-assistant-rx39.onrender.com//api/chat",
       {
         messages: previousMessages
       }
@@ -225,7 +225,7 @@ ${lastAIMessage.text}`;
 
   try {
     const response = await axios.post(
-      "http://127.0.0.1:5000/api/chat",
+      "https://ai-business-assistant-rx39.onrender.com//api/chat",
       {
         messages: [
           {
@@ -316,7 +316,7 @@ ${lastAIMessage.text}`;
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/api/chat",
+        "https://ai-business-assistant-rx39.onrender.com//api/chat",
         {
           messages: updatedMessages
         }
