@@ -6,6 +6,20 @@ A full-stack AI-powered business assistant that helps users generate business co
 
 https://ai-business-assistant-ks91.vercel.app/
 
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](dashboard.png)
+
+### AI Chat
+
+![AI Chat](chat.png)
+
+### Quick Tools
+
+![Quick Tools](tools.png)
+
 ## ✨ Features
 
 * 💬 AI-powered business chat
